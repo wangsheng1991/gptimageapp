@@ -36,7 +36,8 @@
       "Bash(vercel --yes)",
       "Bash(taskkill /F /IM git.exe)",
       "Bash(rm -f \"F:/AISass/Kimi_Agent_复制UI并完善菜单/.git/index.lock\")",
-      "Bash(cmd.exe /c \"del /f \\\\\"F:\\\\AISass\\\\Kimi_Agent_复制UI并完善菜单\\\\.git\\\\index.lock\\\\\"\")"
+      "Bash(cmd.exe /c \"del /f \\\\\"F:\\\\AISass\\\\Kimi_Agent_复制UI并完善菜单\\\\.git\\\\index.lock\\\\\"\")",
+      "Bash(rm:*)"
     ]
   }
 }
