@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { PointsProvider } from "@/components/Points";
 import "./globals.css";
 
+export const metadataBase = "https://gpt-image-generator.vercel.app";
+
 export const metadata: Metadata = {
   title: "GPT Image 2 - Free AI Image Generator Online | 4K HD, 48+ Languages",
   description:
