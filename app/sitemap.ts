@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.gpst-image2.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.gpst-image2.com";
 
   return [
     {
