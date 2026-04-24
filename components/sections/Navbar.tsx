@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { CheckInButton } from '@/components/Points';
 
 interface NavLink {
   label: string;
@@ -187,15 +188,7 @@ export default function Navbar() {
 
           {/* Right Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button
-              variant="outline"
-              className="rounded-full border-white/20 text-white bg-transparent hover:bg-white/10 hover:border-white/40 px-5 transition-all duration-200"
-            >
-              Dashboard
-            </Button>
-            <Button className="rounded-full bg-purple-500 hover:bg-purple-600 text-white px-5 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]">
-              Sign In
-            </Button>
+            <CheckInButton />
           </div>
 
           {/* Mobile Menu Button */}
