@@ -33,7 +33,7 @@ export default function Hero() {
               <rect width="20" height="20" rx="4" fill="#6D5BFF"/>
               <path d="M5 10L8 7L11 10L15 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            <span className="text-sm text-white font-medium">TopView</span>
+            <span className="text-sm text-white font-medium">GPT Image 2</span>
           </div>
         </div>
 

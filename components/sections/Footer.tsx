@@ -87,7 +87,7 @@ export default function Footer() {
               <path d="M9 14L12 11L15 14L19 10" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               <circle cx="19" cy="10" r="2" fill="black"/>
             </svg>
-            <span className="text-white font-semibold">TopView</span>
+            <span className="text-white font-semibold">GPT Image 2</span>
           </button>
 
           {/* Social Icons */}
