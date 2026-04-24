@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://gpt-image-generator.vercel.app";
+  const baseUrl = "https://www.gpst-image2.com";
 
   return [
     {
