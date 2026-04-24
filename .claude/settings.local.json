@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(vercel --prod app/)",
+      "Bash(vercel --prod --yes app/)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel login:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3002)",
+      "WebFetch(domain:www.topview.ai)",
+      "Bash(mkdir -p public/assets)",
+      "Bash(curl -L \"https://d1735p3aqhycef.cloudfront.net/media/images/topview_badge_logo_q9r3t5v1.webp\" -o \"public/assets/topview_badge_logo.webp\" -k --retry 4 -s)",
+      "Bash(curl -L \"https://d1735p3aqhycef.cloudfront.net/media/images/gptimg2_uc_ui_f6l2n8p4.webp\" -o \"public/assets/hero_result.webp\" -k --retry 4 -s)",
+      "Bash(curl -L \"https://d1735p3aqhycef.cloudfront.net/media/images/gptimg2_carousel_brand_s8t9u1v2.webp\" -o \"public/assets/carousel_brand.webp\" -k --retry 4 -s)",
+      "Bash(curl -L \"https://d1735p3aqhycef.cloudfront.net/media/images/gptimg2_carousel_city_a1b2c3d4.webp\" -o \"public/assets/carousel_city.webp\" -k --retry 4 -s)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s http://localhost:3001)",
+      "Bash(curl -s http://localhost:3003/assets/comparison_gpt.webp)",
+      "Bash(curl -s http://localhost:3003)",
+      "Bash(pkill -f \"next dev\" sleep 2 rm -rf .next npm run dev)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(rm -rf .next)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(curl -s http://localhost:3006)",
+      "Bash(npx next:*)",
+      "Bash(netstat -ano)",
+      "Bash(ls -la \"F:/AISass/Kimi_Agent_复制UI并完善菜单/public/assets/\"*.webp)",
+      "Bash(curl -s http://localhost:3010/assets/comparison_gpt.webp)",
+      "Bash(ls:*)",
+      "Bash(curl -sI http://localhost:3010/assets/comparison_gpt.webp)",
+      "Bash(curl -s http://localhost:3010)",
+      "Bash(vercel link:*)",
+      "Bash(vercel --yes)",
+      "Bash(taskkill /F /IM git.exe)",
+      "Bash(rm -f \"F:/AISass/Kimi_Agent_复制UI并完善菜单/.git/index.lock\")",
+      "Bash(cmd.exe /c \"del /f \\\\\"F:\\\\AISass\\\\Kimi_Agent_复制UI并完善菜单\\\\.git\\\\index.lock\\\\\"\")"
+    ]
+  }
+}
